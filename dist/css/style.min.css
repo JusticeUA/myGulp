@@ -1,0 +1,1 @@
+@charset "UTF-8";body{font-size:20px;background-color:#855a5a;display:-webkit-box;display:-ms-flexbox;display:flex}span{font-size:20px}div{font-size:30px}div{background:url(../img/01.jpg) 0 0 no-repeat}@media (max-width:747px){span{font-size:15px}div{font-size:20px}}.webp div{background:url(../img/01.webp) 0 0 no-repeat}
