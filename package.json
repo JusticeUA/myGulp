@@ -1,0 +1,22 @@
+{
+  "name": "furniture-shop",
+  "version": "1.0.0",
+  "description": "training shop",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "Vasyl Hanets",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "yargs-parser": "^20.2.9"
+  },
+  "dependencies": {},
+  "resolutions": {
+    "yargs-parser": "^20.2.9"
+  }
+}
