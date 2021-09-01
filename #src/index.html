@@ -11,7 +11,47 @@
     @@include('_header.html')
   
     <main class="main">
-        <img src="img/01.jpg" alt="">
+        <div class="form_user">
+            <form action="#" method="post">
+                <h2>Заповніть форму</h2>
+                <div class="form_input">
+                    <span>Name: </span>
+                    
+                     <input type="text" name="user_name" placeholder="Name" >
+                </div>
+                <div class="form_input">
+                    <span>Second name: </span>
+                    <input type="text" name="user_second_name" placeholder="Second name" >
+                </div>
+                <div class="form_input">
+                    <span>Age: </span>
+                    <input type="number" name="age" placeholder="age">
+                </div>
+               <div class="form_input">
+                   <span>Number phone:</span>
+                   <input type="tel" name="userphone" placeholder="phone">
+               </div>
+               
+               
+               <div class="form_input_radio">
+                    <div>Стать:</div>
+                    <div>
+                        <input type="radio" checked name="gender" value="male" style="vertical-align:text-bottom;">чол
+                         <span>men</span>
+                    </div>
+                    <div>
+                         <input type="radio" name="gender" value="female">жін
+                     </div>
+                   
+               </div>
+                
+               <div>
+                   <button type="submit">Submit</button>
+                   <button type="reset">Clear</button>
+               </div>
+               
+            </form>
+        </div>
     </main>
     <script src="js/script.min.js"></script>
 </body>
