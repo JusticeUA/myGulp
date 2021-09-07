@@ -1,0 +1,1 @@
+console.log("Hi Vasya! This is Node JS)");
